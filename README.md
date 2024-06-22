@@ -1,0 +1,1 @@
+O banco é pra ser rodado no mysql workbench msm.
