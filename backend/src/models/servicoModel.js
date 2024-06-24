@@ -1,7 +1,7 @@
 const conexao = require("./conexao");
 
 const getAllServico = async () => {
-    const [servico] = await conexao.execute("SELECT * FROM Servico");
+    const [servico] = await conexao.query("SELECT * FROM Servico");
     return servico;
 };
 
@@ -26,7 +26,6 @@ const upServico = async (id, servico) => {
     
     const [upServico] = await conexao.query(
         `CALL SP_Up_Servico(?, ?, ?, ?, ?, ?, @message)`, [title, desc, img, ordem, url, id]
-        // `UPDATE Servico SET titulo = ?, desc_servico = ?, img = ?, ordem_apresentacao = ?, url = ? WHERE id_servico = ?`, [title, desc, img, ordem, url, id]
     );
     return upServico;
 };

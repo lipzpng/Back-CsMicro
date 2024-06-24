@@ -1,12 +1,10 @@
 const validateBody = (req, res, next) => {
     const { body } = req;
 
-    const campo = ["title", "desc", "img", "ordem", "url"];
+    const campo = ["desc", "logo", "url"];
     const nomeCampo = {
-        title: "title",
         desc: "desc",
-        img: "img",
-        ordem: "ordem",
+        logo: "logo",
         url: "url"
     };
 

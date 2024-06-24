@@ -1,4 +1,3 @@
-const conexao = require("../models/conexao");
 const servicoModel = require("../models/servicoModel");
 
 const getAllServico = async (req, res) => {
