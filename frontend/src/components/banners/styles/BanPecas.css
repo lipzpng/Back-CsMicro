@@ -1,0 +1,40 @@
+.banPecas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    max-width: 1340px;
+    background-color: #2959d3;
+    color: white;
+    margin: 10px 0;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.textBanPecas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    div {
+        margin: 0 40px;
+    }
+}
+
+.titleBanPecas{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+}
+
+#descBanPecas {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    gap: 20px;
+}

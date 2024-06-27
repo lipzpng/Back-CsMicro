@@ -1,0 +1,17 @@
+#bannRefColor {
+    justify-content: center;
+    background: url(../img/bannerReforma.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#btnBannerRef {
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    gap: 28px;
+}
+
+#btnBannerRef p {
+    margin-left: 5px;
+}

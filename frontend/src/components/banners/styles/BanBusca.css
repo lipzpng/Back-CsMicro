@@ -1,0 +1,29 @@
+.banBusca {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin: 30px 0;
+    max-width: 1410px;
+    color: white;
+    background: url(../img/busca5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#condicoes {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    max-width: 320px;
+    margin-right: 380px;
+    margin-bottom: 90px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+}

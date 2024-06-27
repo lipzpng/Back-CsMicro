@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "DM_sans";
+    src: url('assets/fonts/DMSans-Regular.ttf') format('woff2');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Dm_Sans";
+    font-weight: 600;
+}

@@ -1,0 +1,169 @@
+#alignInfo {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgrey;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 1410px;
+    width: 100%;
+}
+
+.contentInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.contentInfo span {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.contentInfo p {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+}
+
+#alignCateg {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgrey;
+}
+
+.categoriesFooter {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    max-width: 1410px;
+    width: 100%;
+}
+
+.columnFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0;
+    font-size: 20px;
+}
+
+.columnFooter div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.newsletterFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 20px;
+    font-size: 20px;
+}
+
+.newsletterFooter div {
+    align-items: center;
+    margin: 7px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.formFooter {
+    display: flex;
+    margin: 15px 0;
+    height: 50px;
+}
+
+.inputFooter {
+    flex-grow: 1;
+    width: 100px;
+    padding: 10px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.inputButtonFooter {
+    font-family: "Dm_Sans";
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: black;
+    background-color: #ff681f;
+    padding: 10px;
+}
+
+#iconSocial {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#subTitleSocial {
+    font-family: "Dm_Sans";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#iconSocial i {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#alignFootnote {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgrey;
+}
+
+.footnote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    max-width: 1410px;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#alignLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#iconFooter {
+    height: 55px;
+}
+
+#alignLinkedin {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-left: 120px;
+}
+
+#labelLinkedin {
+    font-weight: 500;
+}

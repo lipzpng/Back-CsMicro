@@ -1,0 +1,15 @@
+.alignUsado {
+    display: flex;
+    justify-content: center;
+}
+
+.usadoContent{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 1400px;
+}
+
+/* .usadoFiltro {
+    margin: 30px 0;
+} */

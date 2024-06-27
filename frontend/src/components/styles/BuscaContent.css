@@ -1,0 +1,50 @@
+.alignBusca{
+    display: flex;
+    justify-content: center;
+}
+
+.Busca {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1410px;
+    width: 100%;
+    margin: 40px 0 60px 0;
+}
+
+.contentBusca {
+    flex-grow: 1;
+}
+
+.textBusca, ul {
+    font-weight: 500;
+}
+
+.textBusca {
+    ul {
+        margin-top: 20px;
+    }
+}
+
+#imgBusca {
+    height: 480px;
+    border-radius: 10px;
+}
+
+#imgZapBusca {
+    height: 20px;
+}
+
+#zapBusca {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    max-width: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: #25d366;
+}

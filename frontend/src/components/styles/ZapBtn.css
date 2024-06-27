@@ -1,0 +1,23 @@
+.btnZap {
+    display: flex;
+    div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 13px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+}
+
+.zap {
+    color: white;
+    background-color: #25d366;
+    gap: 10px;
+}
+
+#iconZap {
+    height: 17px;
+}

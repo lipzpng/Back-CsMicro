@@ -17,6 +17,7 @@ const addServico = async (servico) => {
 const delServico = async (id) => {
     const delServico = await conexao.query(
         `CALL SP_Del_Servico(?, ?, @message)`, [id, false]
+        // `DELETE FROM Servico WHERE id_servico = ${id};`
     );
     return delServico;
 };

@@ -1,0 +1,101 @@
+p {
+    margin: 0;
+}
+
+#titleContato {
+    margin: 60px 60px 0 60px;
+    font-size: 25px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
+.contentContato {
+    margin: 60px 60px 100px 60px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+/* logo -> */
+.logoContato {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.logoContato div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.logoContato img {
+    width: 100px;
+}
+
+.logoContato p {
+    margin: 0;
+    font-size: 13px;
+}
+/* <- logo */
+
+#descContato {
+    margin-bottom: 30px;
+}
+
+.inputContato {
+    padding: 5px 0 5px 5px;
+    background-color: #fdfdfd;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #212121;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 100%;
+}
+
+.formContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ajustContatoSmall {
+    width: 320px;
+}
+
+.ajustContato {
+    width: 100%;
+}
+
+#inputMensagem {
+    height: 150px;
+}
+
+.btnContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dm_Sans";
+    font-weight: 600;
+    font-size: 15px;
+    max-width: 180px;
+    background-color: #ff681f;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 20px;
+    gap: 20px;
+}
