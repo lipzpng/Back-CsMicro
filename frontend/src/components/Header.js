@@ -32,12 +32,11 @@ export default function Header() { // Componentização do Header para evidar re
             const divServico = createElement("div", `<span class="material-symbols-outlined">${img}</span><p>${titulo}</p>`);
 
             const divTr = createElement("div");
-
+            divServico.classList.add("divServicos");
     
             divTr.addEventListener("click", () => navigate(url));
     
             divTr.appendChild(divServico);
-            divServico.classList.add("divServicos");
     
             return divTr;
         }

@@ -14,6 +14,9 @@ const modeloMiddleware = require("./middlewares/modeloMiddleware");
 const tipoProdutoController = require("./controllers/tipoProdutoController");
 const tipoProdutoMiddleware = require("./middlewares/tipoProdutoMiddleware");
 
+const userController = require("./controllers/userController");
+const userMiddleware = require("./middlewares/userMiddleware");
+
 const router = express();
 
 router.get("/servico", servicoController.getAllServico);
@@ -40,5 +43,10 @@ router.get("/tipoProduto", tipoProdutoController.getAllTipoProduto);
 router.post("/tipoProduto", tipoProdutoMiddleware.validateBody, tipoProdutoController.addTipoProduto);
 router.delete("/tipoProduto/:id", tipoProdutoController.delTipoProduto);
 router.put("/tipoProduto/:id", tipoProdutoMiddleware.validateBody, tipoProdutoController.upTipoProduto);
+
+router.get("/user", userController.getAllUser);
+router.post("/user", userMiddleware.validateBody, userController.addUser);
+router.delete("/user/:id", userController.delUser);
+router.put("/user/:id", userMiddleware.validateBody, userController.upUser);
 
 module.exports = router;

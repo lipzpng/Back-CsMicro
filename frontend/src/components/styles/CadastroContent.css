@@ -1,5 +1,7 @@
-p {
-    margin: 0;
+.ajustCadastroContent {
+    p {
+        margin: 0;
+    }
 }
 
 #titleCadastro {
@@ -81,9 +83,11 @@ p {
 }
 
 .btnCadastro {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
     font-family: "Dm_Sans";
     font-weight: 600;
     font-size: 15px;

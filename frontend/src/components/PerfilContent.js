@@ -23,8 +23,8 @@ import TipoProdutoTB from "./tabelas/TipoProdutoTB";
 
 export default function PerfilContent() {
     useEffect(() => {
-        // ServicoCrud();
-        ProdutoCrud();
+        ServicoCrud();
+        // ProdutoCrud();
         // MarcaCrud();
         // ModeloCrud();
         // TipoProdutoCrud();
@@ -32,8 +32,8 @@ export default function PerfilContent() {
 
     return (
         <div class="alignPerfil">
-            {/* <ServicoTB title="Lista de serviços"/> */}
-            <ProdutoTB title="Lista de produtos"/>
+            <ServicoTB title="Lista de serviços"/>
+            {/* <ProdutoTB title="Lista de produtos"/> */}
             {/* <MarcaTB title="Lista de marcas" /> */}
             {/* <ModeloTB title="Lista de modelos" /> */}
             {/* <TipoProdutoTB title="Lista de tipos de produtos" /> */}

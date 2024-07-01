@@ -23,8 +23,8 @@ export default function ContatoContent() { // Componentização do conteudo da p
                             </div>
                             <div class="ajustContatoSmall">
                                 <p>Celular</p>
-                                <input type="tel" class="inputContato" id="phone" placeholder="99 9999-9999" pattern="(\[0-9]{2}\)\s?([0-9]{5})-([0-9]{4})" 
-                                title="Número de telefone precisa ser no formato (99) 9999-9999" required/>
+                                <input type="tel" class="inputContato" id="phone" placeholder="99 99999-9999" pattern="(\[0-9]{2}\)\s?([0-9]{5})-([0-9]{4})" 
+                                title="Número de telefone precisa ser no formato (99) 99999-9999" required/>
                             </div>
                         </div>
 
